@@ -1,0 +1,10 @@
+Ravi="2 december"
+Keshav="24 september"
+Mohan="8 februrary"
+Abhi="20 june"
+Aman="19 august"
+print(Ravi)
+print(Keshav)
+print(Mohan)
+print(Abhi)
+print(Aman)
