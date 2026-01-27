@@ -1,0 +1,17 @@
+def shutdown():
+    user_input = input("Do you want to shutdown the system? (Yes/No): ")
+
+    if user_input == "Yes":
+        user_input2=input("are all the apps closed? (Yes/no)")
+        user_input3=input("are the conditions true? (Yes/no)")
+        if user_input2 == "Yes" and user_input3 == "Yes":
+            print("shutdown")
+        else:
+            print("Abort shutdown.")
+    elif user_input == "No":
+        print("Abort shutdown.")
+    else:
+        print("Sorry")
+
+shutdown()
+
