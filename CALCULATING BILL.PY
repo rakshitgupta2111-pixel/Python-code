@@ -1,12 +1,12 @@
-def sub(a,b):
-    return a-b
+def sub(b,a):
+    return b-a
 
+a='total bill'
+b='money paid by customer'
+a=2.50
+b=4
 
-a=int(input("Enter the total bill: "))
-b=int(input("Enter the amount paid: "))
+print("Total Bill: $", a)
+print("Amount Paid to shopkeeper: $", b)
+print("Due Amount to be paid by shopkeeper is $", sub(b,a))
 
-if a>b:
-    print("amount left to be paid is: ", a-b)
-else:
-    print("Thank you")
-    pass
